@@ -136,7 +136,7 @@ const peeps = [{"id":1,
 			"company":{"name":"Hoeger LLC","catchPhrase":"Centralized empowering task-force",
 				"bs":"target end-to-end models"}}];
 
-let myMap = ["id", "name", "username", "email", "phone", "website", "company"];
+/*let myMap = ["id", "name", "username", "email", "phone", "website", "company"];
 
 peeps.map(function(val, index, array) {
 	let keys = Object.keys(val);
@@ -145,4 +145,11 @@ peeps.map(function(val, index, array) {
 	}
 });
 
-console.log(peeps);
+console.log(peeps);*/
+
+/*const mappedUsers = peeps.map(user => {
+	user.address = undefined;
+	return user;
+});
+
+console.log(mappedUsers);*/
